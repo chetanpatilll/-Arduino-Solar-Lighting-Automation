@@ -1,6 +1,9 @@
 # -Arduino-Solar-Lighting-Automation 🌞💡
 This project leverages Arduino technology, solar panels, and LED lights to create a sustainable and efficient street lighting solution. By harnessing solar energy during the day, the system powers streetlights at night, ensuring eco-friendly and cost-effective outdoor illumination.
 
+![Final Project Image](https://github.com/user-attachments/assets/7f1dc87b-7375-4a4e-9b5b-379dfabdf862)
+
+
 System Design Working Modes:
 OFF mode: During the day, when natural light is abundant, the system remains off while the batteries recharge.
 
@@ -19,3 +22,6 @@ Key Features:
 💡 Energy Efficiency: Reduces energy consumption by relying on renewable solar power, contributing to sustainability.
 
 💸 Cost Effectiveness: Minimizes operational costs with a self-sustaining power source, eliminating the need for external electricity.
+![Uploading Final Project Image.jpg…]()
+
+
