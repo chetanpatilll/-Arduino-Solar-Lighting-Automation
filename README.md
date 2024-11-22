@@ -11,10 +11,10 @@ Active mode: As natural light diminishes to a certain threshold, the system acti
 
 ON mode: When pedestrians or traffic are detected, the sensors trigger the LED lights to illuminate. These lights dim if no further motion is sensed.
 
-Components Used:
+#Components Used:
 Arduino Board, LDR Sensor, IR Sensor, Rechargeable Battery & Solar Panels.
 
-Key Features:
+#Key Features:
 🌞 Solar Energy Harvesting: Captures and stores solar energy during daylight hours to power LED streetlights after sunset.
 
 🔧 Arduino Integration: Utilizes Arduino for smart control and efficient management of the lighting system.
