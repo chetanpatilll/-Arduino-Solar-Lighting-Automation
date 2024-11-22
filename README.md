@@ -22,6 +22,3 @@ Key Features:
 💡 Energy Efficiency: Reduces energy consumption by relying on renewable solar power, contributing to sustainability.
 
 💸 Cost Effectiveness: Minimizes operational costs with a self-sustaining power source, eliminating the need for external electricity.
-![Uploading Final Project Image.jpg…]()
-
-
