@@ -1,0 +1,50 @@
+//(127 out of 255}
+const int ledPin = 9; // Example pin number, change as needed
+const int irAnalogPin = A2;
+const int ldrAnalogPin = A1;
+const int flameAnalogPin = A4;
+
+int irValue;
+int ldrValue;
+int flameValue;
+
+const int irThreshold = 500;
+const int ldrThreshold = 600;
+
+void setup() {
+    pinMode(ledPin, OUTPUT);
+    pinMode(irAnalogPin, INPUT);
+    pinMode(ldrAnalogPin, INPUT);
+    pinMode(flameAnalogPin, INPUT);
+    Serial.begin(9600);
+}
+
+void loop() {
+    irValue = analogRead(irAnalogPin);
+    ldrValue = analogRead(ldrAnalogPin);
+    flameValue = analogRead(flameAnalogPin);
+
+    // Print sensor values for debugging
+    Serial.print("LDR: ");
+    Serial.print(ldrValue);
+    Serial.print("\tIR: ");
+    Serial.print(irValue);
+    Serial.print("\tFlame: ");
+    Serial.print(flameValue);
+
+    // Check if it is night or day
+   if (ldrValue < ldrThreshold)
+    {analogWrite(ledPin, 0);
+    Serial.println("Its DAY Time");
+    }
+   
+  
+    if (ldrValue>ldrThreshold && irValue<irThreshold)
+    { analogWrite(ledPin, 127);
+Serial.println("Its NIGHT Time and Vehicle NOT Detected"); }
+       
+   if(ldrValue>ldrThreshold && irValue>irThreshold)
+   { analogWrite(ledPin, 255);
+    Serial.println("Its NIGHT Time and Vehicle Detected");
+    }
+     delay(500);
