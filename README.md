@@ -1,5 +1,5 @@
 # Arduino-Solar-Lighting-Automation 🌞💡
-This project leverages Arduino technology, solar panels, and LED lights to create a sustainable and efficient street lighting solution. By harnessing solar energy during the day, the system powers streetlights at night, ensuring eco-friendly and cost-effective outdoor illumination.
+This project is an innovative and energy-efficient street lighting system powered by solar energy using Arduino, LEDs, LDR (Light Dependent Resistor), IR and flame sensors. The system optimizes energy consumption by maintaining low brightness at night and dynamically increasing the LED brightness upon detecting vehicles or motion via IR sensors. The flame sensor adds a safety feature by alerting in case of fire near the lights. Designed to operate autonomously, this project promotes sustainability and smart energy usage for modern street lighting solutions.
 
 ![Final Project Image](https://github.com/user-attachments/assets/7f1dc87b-7375-4a4e-9b5b-379dfabdf862)
 
